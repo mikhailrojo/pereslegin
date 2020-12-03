@@ -1,0 +1,31 @@
+nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav div {
+	padding: 20px;
+	margin: 40px 0;
+	min-width: 50%;
+	box-sizing: border-box;
+	font-size: 2em;
+}
+
+nav div:nth-child(even) {
+	text-align: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	border-radius: 20px;
+	background: rgba(25, 25, 25, 0.7);
+
+}
+
+nav  a:hover {
+	background: white;
+	color: black;
+	box-shadow: 0 20px 20px rgba(0,0,0,.2);
+}
