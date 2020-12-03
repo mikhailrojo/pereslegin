@@ -8,7 +8,7 @@ import {Contacts} from './components/Contacts';
 import {Media} from './components/Media';
 
 export const App = () => (
-	<Router>
+	<Router basename='pereslegin/dist'>
 		<div>
 			<Switch>
 				<Route path='/' exact>
